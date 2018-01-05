@@ -1,0 +1,1373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		158567371BDA33103552C4DB /* libPods-CarSeriously.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DFDD45CD0064A9BEF98E85 /* libPods-CarSeriously.a */; };
+		181CFD8B1FFCB5C400D3DD4F /* YQHomeLoanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CFD8A1FFCB5C400D3DD4F /* YQHomeLoanViewController.m */; };
+		181CFD911FFCC62100D3DD4F /* YQCGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CFD901FFCC62100D3DD4F /* YQCGImage.m */; };
+		181CFDA01FFCCB0900D3DD4F /* YQSellCarInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CFD9C1FFCCB0800D3DD4F /* YQSellCarInfoViewController.m */; };
+		181CFDA11FFCCB0900D3DD4F /* YQSellCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CFD9F1FFCCB0800D3DD4F /* YQSellCarViewController.m */; };
+		181CFDA41FFCCB3500D3DD4F /* YQSellCarInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CFDA31FFCCB3500D3DD4F /* YQSellCarInfoCell.m */; };
+		181CFDA71FFCCD9A00D3DD4F /* YQSellCarInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 181CFDA61FFCCD9A00D3DD4F /* YQSellCarInfoModel.m */; };
+		1823D1611FF5F2DE00059CA5 /* YQReportMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D1601FF5F2DE00059CA5 /* YQReportMenuItem.m */; };
+		1823D1641FF6094F00059CA5 /* YQCarSourceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D1631FF6094F00059CA5 /* YQCarSourceCell.m */; };
+		1823D1671FF61E4C00059CA5 /* cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1823D1661FF61E4C00059CA5 /* cars.plist */; };
+		1823D16A1FF61EA500059CA5 /* YQCarBrandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D1691FF61EA500059CA5 /* YQCarBrandViewController.m */; };
+		1823D16D1FF631A900059CA5 /* YQIntervalValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D16C1FF631A900059CA5 /* YQIntervalValueCell.m */; };
+		1823D1701FF6358E00059CA5 /* YQCarSourceReportStateMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823D16F1FF6358E00059CA5 /* YQCarSourceReportStateMenuView.m */; };
+		1832C3C71FF08CCC000C4BBD /* YQCarCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3C61FF08CCC000C4BBD /* YQCarCollectionViewController.m */; };
+		1832C3CA1FF08CE7000C4BBD /* YQCarCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3C91FF08CE7000C4BBD /* YQCarCollectionCell.m */; };
+		1832C3CD1FF0D8EE000C4BBD /* YQFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3CC1FF0D8EE000C4BBD /* YQFeedbackViewController.m */; };
+		1832C3D01FF0F4DE000C4BBD /* YQPersonalInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3CF1FF0F4DE000C4BBD /* YQPersonalInfoViewController.m */; };
+		1832C3D31FF0F5CF000C4BBD /* YQPersonalInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3D21FF0F5CE000C4BBD /* YQPersonalInfoItem.m */; };
+		1832C3D61FF0FCC1000C4BBD /* YQPersonalInfoHeaderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3D51FF0FCC1000C4BBD /* YQPersonalInfoHeaderItem.m */; };
+		1832C3D91FF1059F000C4BBD /* YQHomeVINView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3D81FF1059F000C4BBD /* YQHomeVINView.m */; };
+		1832C3DB1FF105EC000C4BBD /* YQHomeVINView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1832C3DA1FF105EC000C4BBD /* YQHomeVINView.xib */; };
+		1832C3DE1FF1E83B000C4BBD /* YQHomeCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3DD1FF1E83B000C4BBD /* YQHomeCellItem.m */; };
+		1832C3E11FF1EB48000C4BBD /* YQHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3E01FF1EB48000C4BBD /* YQHomeCell.m */; };
+		1832C3E41FF1F777000C4BBD /* YQHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1832C3E31FF1F777000C4BBD /* YQHomeHeaderView.m */; };
+		1837FBF51FFB303C008D42B5 /* YQSectionSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837FBF41FFB303C008D42B5 /* YQSectionSlider.m */; };
+		183A736E1F15B9CD0053B92F /* HomeRepairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A736D1F15B9CD0053B92F /* HomeRepairViewController.m */; };
+		183A73711F162B6C0053B92F /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183A73701F162B6C0053B92F /* PaymentViewController.m */; };
+		18498D9D1F0CBD0E009A7C74 /* RepairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18498D9C1F0CBD0E009A7C74 /* RepairViewController.m */; };
+		18498DA31F0CD544009A7C74 /* RepairTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18498DA21F0CD544009A7C74 /* RepairTableViewCell.m */; };
+		18498DA61F0CE29A009A7C74 /* InsuranceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18498DA51F0CE29A009A7C74 /* InsuranceTableViewController.m */; };
+		18498DA91F0CE699009A7C74 /* TransferTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18498DA81F0CE699009A7C74 /* TransferTableViewController.m */; };
+		186ACF131F14D74800EE00F7 /* AboutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186ACF121F14D74800EE00F7 /* AboutTableViewController.m */; };
+		187A72201FF4E56E00CA55C1 /* YQRightImgButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A721F1FF4E56E00CA55C1 /* YQRightImgButton.m */; };
+		187A72231FF4E9F800CA55C1 /* YQReportStateMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A72221FF4E9F800CA55C1 /* YQReportStateMenuView.m */; };
+		187A72261FF4EB0500CA55C1 /* YQCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A72251FF4EB0500CA55C1 /* YQCoverView.m */; };
+		187C4A191FEB659C0089309F /* UIView+YQSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A181FEB659C0089309F /* UIView+YQSafe.m */; };
+		187C4A1C1FEBA3120089309F /* UILabel+YQLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A1B1FEBA3120089309F /* UILabel+YQLabel.m */; };
+		187C4A2B1FEBAB800089309F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A201FEBAB800089309F /* LoginViewController.m */; };
+		187C4A2C1FEBAB800089309F /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A221FEBAB800089309F /* PasswordViewController.m */; };
+		187C4A2D1FEBAB800089309F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A241FEBAB800089309F /* RegisterViewController.m */; };
+		187C4A2E1FEBAB800089309F /* YQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A281FEBAB800089309F /* YQTextField.m */; };
+		187C4A2F1FEBAB800089309F /* YQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A2A1FEBAB800089309F /* YQTextView.m */; };
+		187C4A321FEBAC6D0089309F /* YQLoginBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A311FEBAC6D0089309F /* YQLoginBaseViewController.m */; };
+		187C4A351FEBB2D10089309F /* YQNewPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A341FEBB2D10089309F /* YQNewPasswordViewController.m */; };
+		187C4A381FEBB9230089309F /* NSString+YQCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C4A371FEBB9230089309F /* NSString+YQCategory.m */; };
+		18A9AE671FF22C32002681F6 /* HomeTableViewScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9AE5F1FF22C2D002681F6 /* HomeTableViewScrollCell.m */; };
+		18A9AE681FF22C32002681F6 /* HomeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9AE601FF22C2E002681F6 /* HomeCollectionViewCell.m */; };
+		18A9AE691FF22C32002681F6 /* HomeTableViewQACell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9AE611FF22C2F002681F6 /* HomeTableViewQACell.m */; };
+		18A9AE6A1FF22C32002681F6 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9AE631FF22C2F002681F6 /* HomeTableViewCell.m */; };
+		18AFA3121FE8F99100710E99 /* YQNewFeaureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3111FE8F99100710E99 /* YQNewFeaureController.m */; };
+		18AFA3151FE8FF8B00710E99 /* YQNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3141FE8FF8B00710E99 /* YQNewFeatureCell.m */; };
+		18AFA3181FE9135000710E99 /* YQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3171FE9135000710E99 /* YQNavigationController.m */; };
+		18AFA31B1FE9FD5B00710E99 /* YQPersonalCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA31A1FE9FD5B00710E99 /* YQPersonalCellItem.m */; };
+		18AFA31E1FE9FF7B00710E99 /* YQGroupItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA31D1FE9FF7B00710E99 /* YQGroupItem.m */; };
+		18AFA3211FEA02F300710E99 /* YQPersonalCellArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3201FEA02F300710E99 /* YQPersonalCellArrowItem.m */; };
+		18AFA3241FEA07DE00710E99 /* YQPersonalHeaderCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3231FEA07DE00710E99 /* YQPersonalHeaderCellItem.m */; };
+		18AFA3271FEA0D9D00710E99 /* YQPersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3261FEA0D9D00710E99 /* YQPersonalCell.m */; };
+		18AFA3341FEA5D4000710E99 /* YQCarSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3331FEA5D4000710E99 /* YQCarSourceViewController.m */; };
+		18DD1DD91F0B6BE300B7DA05 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD1DD81F0B6BE300B7DA05 /* MainTabBarController.m */; };
+		18DD1DDC1F0B6C3000B7DA05 /* MainTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD1DDB1F0B6C3000B7DA05 /* MainTabBarItem.m */; };
+		18DD1DE01F0B7C7700B7DA05 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD1DDF1F0B7C7700B7DA05 /* UIView+frame.m */; };
+		18E3689A1FF34F52004DE661 /* YQHomeHeaderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E368991FF34F52004DE661 /* YQHomeHeaderLabel.m */; };
+		18E3689D1FF38D83004DE661 /* YQQACellCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3689C1FF38D83004DE661 /* YQQACellCell.m */; };
+		18E368A01FF38FAB004DE661 /* YQQACellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E3689F1FF38FAB004DE661 /* YQQACellItem.m */; };
+		18E5FBAA1FECD4A100EED164 /* YQSessionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5FBA91FECD4A100EED164 /* YQSessionTool.m */; };
+		18E5FBAD1FECECB300EED164 /* YQRegisterAgreementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5FBAC1FECECB300EED164 /* YQRegisterAgreementView.m */; };
+		18E67CC51F0B29D7001919EA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67CC41F0B29D7001919EA /* HomeViewController.m */; };
+		18E67CC81F0B29E8001919EA /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67CC71F0B29E8001919EA /* RecordViewController.m */; };
+		18E67CCB1F0B29FC001919EA /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E67CCA1F0B29FC001919EA /* PersonalViewController.m */; };
+		18E8518E1FFF176500F2908B /* YQReportDetailSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8518D1FFF176500F2908B /* YQReportDetailSectionHeaderView.m */; };
+		18E851921FFF51F700F2908B /* YQCarReportDetailRepairCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E851901FFF51F700F2908B /* YQCarReportDetailRepairCell.m */; };
+		18E851931FFF51F700F2908B /* YQCarReportDetailRepairCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E851911FFF51F700F2908B /* YQCarReportDetailRepairCell.xib */; };
+		18EE86FA1F009901006A40B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE86F91F009901006A40B1 /* main.m */; };
+		18EE86FD1F009901006A40B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE86FC1F009901006A40B1 /* AppDelegate.m */; };
+		18EE87031F009901006A40B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE87011F009901006A40B1 /* Main.storyboard */; };
+		18EE87051F009901006A40B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EE87041F009901006A40B1 /* Assets.xcassets */; };
+		18EE87081F009901006A40B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE87061F009901006A40B1 /* LaunchScreen.storyboard */; };
+		18EE87131F009901006A40B1 /* CarSeriouslyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE87121F009901006A40B1 /* CarSeriouslyTests.m */; };
+		18EE871E1F009901006A40B1 /* CarSeriouslyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE871D1F009901006A40B1 /* CarSeriouslyUITests.m */; };
+		18F4F4451FFDBFAA004C0CD6 /* YQReportDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4F4441FFDBFA9004C0CD6 /* YQReportDetailViewController.m */; };
+		18F4F4481FFDC00A004C0CD6 /* YQReportDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4F4471FFDC00A004C0CD6 /* YQReportDetailHeaderView.m */; };
+		18F4F44B1FFDDE0C004C0CD6 /* YQLeftLineLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4F44A1FFDDE0C004C0CD6 /* YQLeftLineLabel.m */; };
+		18F4F44E1FFDFBF3004C0CD6 /* YQCarReportDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4F44D1FFDFBF3004C0CD6 /* YQCarReportDetailCell.m */; };
+		18F4F4511FFDFE75004C0CD6 /* YQCarPartReportDetailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F4F4501FFDFE75004C0CD6 /* YQCarPartReportDetailItem.m */; };
+		18F4F4531FFE0840004C0CD6 /* YQCarPart.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F4F4521FFE0840004C0CD6 /* YQCarPart.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EE870F1F009901006A40B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EE86ED1F009901006A40B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EE86F41F009901006A40B1;
+			remoteInfo = CarSeriously;
+		};
+		18EE871A1F009901006A40B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EE86ED1F009901006A40B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EE86F41F009901006A40B1;
+			remoteInfo = CarSeriously;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181CFD891FFCB5C400D3DD4F /* YQHomeLoanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeLoanViewController.h; sourceTree = "<group>"; };
+		181CFD8A1FFCB5C400D3DD4F /* YQHomeLoanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeLoanViewController.m; sourceTree = "<group>"; };
+		181CFD8F1FFCC62100D3DD4F /* YQCGImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCGImage.h; sourceTree = "<group>"; };
+		181CFD901FFCC62100D3DD4F /* YQCGImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCGImage.m; sourceTree = "<group>"; };
+		181CFD9C1FFCCB0800D3DD4F /* YQSellCarInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQSellCarInfoViewController.m; sourceTree = "<group>"; };
+		181CFD9D1FFCCB0800D3DD4F /* YQSellCarInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSellCarInfoViewController.h; sourceTree = "<group>"; };
+		181CFD9E1FFCCB0800D3DD4F /* YQSellCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSellCarViewController.h; sourceTree = "<group>"; };
+		181CFD9F1FFCCB0800D3DD4F /* YQSellCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQSellCarViewController.m; sourceTree = "<group>"; };
+		181CFDA21FFCCB3500D3DD4F /* YQSellCarInfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSellCarInfoCell.h; sourceTree = "<group>"; };
+		181CFDA31FFCCB3500D3DD4F /* YQSellCarInfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSellCarInfoCell.m; sourceTree = "<group>"; };
+		181CFDA51FFCCD9A00D3DD4F /* YQSellCarInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSellCarInfoModel.h; sourceTree = "<group>"; };
+		181CFDA61FFCCD9A00D3DD4F /* YQSellCarInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSellCarInfoModel.m; sourceTree = "<group>"; };
+		1823D15F1FF5F2DE00059CA5 /* YQReportMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQReportMenuItem.h; sourceTree = "<group>"; };
+		1823D1601FF5F2DE00059CA5 /* YQReportMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQReportMenuItem.m; sourceTree = "<group>"; };
+		1823D1621FF6094F00059CA5 /* YQCarSourceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarSourceCell.h; sourceTree = "<group>"; };
+		1823D1631FF6094F00059CA5 /* YQCarSourceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarSourceCell.m; sourceTree = "<group>"; };
+		1823D1661FF61E4C00059CA5 /* cars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars.plist; sourceTree = "<group>"; };
+		1823D1681FF61EA500059CA5 /* YQCarBrandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarBrandViewController.h; sourceTree = "<group>"; };
+		1823D1691FF61EA500059CA5 /* YQCarBrandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarBrandViewController.m; sourceTree = "<group>"; };
+		1823D16B1FF631A900059CA5 /* YQIntervalValueCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQIntervalValueCell.h; sourceTree = "<group>"; };
+		1823D16C1FF631A900059CA5 /* YQIntervalValueCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQIntervalValueCell.m; sourceTree = "<group>"; };
+		1823D16E1FF6358E00059CA5 /* YQCarSourceReportStateMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarSourceReportStateMenuView.h; sourceTree = "<group>"; };
+		1823D16F1FF6358E00059CA5 /* YQCarSourceReportStateMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarSourceReportStateMenuView.m; sourceTree = "<group>"; };
+		1832C3C51FF08CCC000C4BBD /* YQCarCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarCollectionViewController.h; sourceTree = "<group>"; };
+		1832C3C61FF08CCC000C4BBD /* YQCarCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarCollectionViewController.m; sourceTree = "<group>"; };
+		1832C3C81FF08CE7000C4BBD /* YQCarCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarCollectionCell.h; sourceTree = "<group>"; };
+		1832C3C91FF08CE7000C4BBD /* YQCarCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarCollectionCell.m; sourceTree = "<group>"; };
+		1832C3CB1FF0D8EE000C4BBD /* YQFeedbackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQFeedbackViewController.h; sourceTree = "<group>"; };
+		1832C3CC1FF0D8EE000C4BBD /* YQFeedbackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQFeedbackViewController.m; sourceTree = "<group>"; };
+		1832C3CE1FF0F4DE000C4BBD /* YQPersonalInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQPersonalInfoViewController.h; sourceTree = "<group>"; };
+		1832C3CF1FF0F4DE000C4BBD /* YQPersonalInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPersonalInfoViewController.m; sourceTree = "<group>"; };
+		1832C3D11FF0F5CE000C4BBD /* YQPersonalInfoItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQPersonalInfoItem.h; sourceTree = "<group>"; };
+		1832C3D21FF0F5CE000C4BBD /* YQPersonalInfoItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPersonalInfoItem.m; sourceTree = "<group>"; };
+		1832C3D41FF0FCC1000C4BBD /* YQPersonalInfoHeaderItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQPersonalInfoHeaderItem.h; sourceTree = "<group>"; };
+		1832C3D51FF0FCC1000C4BBD /* YQPersonalInfoHeaderItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPersonalInfoHeaderItem.m; sourceTree = "<group>"; };
+		1832C3D71FF1059F000C4BBD /* YQHomeVINView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeVINView.h; sourceTree = "<group>"; };
+		1832C3D81FF1059F000C4BBD /* YQHomeVINView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeVINView.m; sourceTree = "<group>"; };
+		1832C3DA1FF105EC000C4BBD /* YQHomeVINView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQHomeVINView.xib; sourceTree = "<group>"; };
+		1832C3DC1FF1E83B000C4BBD /* YQHomeCellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeCellItem.h; sourceTree = "<group>"; };
+		1832C3DD1FF1E83B000C4BBD /* YQHomeCellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeCellItem.m; sourceTree = "<group>"; };
+		1832C3DF1FF1EB48000C4BBD /* YQHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeCell.h; sourceTree = "<group>"; };
+		1832C3E01FF1EB48000C4BBD /* YQHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeCell.m; sourceTree = "<group>"; };
+		1832C3E21FF1F777000C4BBD /* YQHomeHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeHeaderView.h; sourceTree = "<group>"; };
+		1832C3E31FF1F777000C4BBD /* YQHomeHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeHeaderView.m; sourceTree = "<group>"; };
+		1837FBF31FFB303C008D42B5 /* YQSectionSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSectionSlider.h; sourceTree = "<group>"; };
+		1837FBF41FFB303C008D42B5 /* YQSectionSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSectionSlider.m; sourceTree = "<group>"; };
+		183A736C1F15B9CD0053B92F /* HomeRepairViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeRepairViewController.h; sourceTree = "<group>"; };
+		183A736D1F15B9CD0053B92F /* HomeRepairViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeRepairViewController.m; sourceTree = "<group>"; };
+		183A736F1F162B6C0053B92F /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		183A73701F162B6C0053B92F /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		18498D9B1F0CBD0E009A7C74 /* RepairViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepairViewController.h; sourceTree = "<group>"; };
+		18498D9C1F0CBD0E009A7C74 /* RepairViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepairViewController.m; sourceTree = "<group>"; };
+		18498DA11F0CD544009A7C74 /* RepairTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepairTableViewCell.h; sourceTree = "<group>"; };
+		18498DA21F0CD544009A7C74 /* RepairTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepairTableViewCell.m; sourceTree = "<group>"; };
+		18498DA41F0CE29A009A7C74 /* InsuranceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsuranceTableViewController.h; sourceTree = "<group>"; };
+		18498DA51F0CE29A009A7C74 /* InsuranceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsuranceTableViewController.m; sourceTree = "<group>"; };
+		18498DA71F0CE699009A7C74 /* TransferTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferTableViewController.h; sourceTree = "<group>"; };
+		18498DA81F0CE699009A7C74 /* TransferTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferTableViewController.m; sourceTree = "<group>"; };
+		186ACF111F14D74800EE00F7 /* AboutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutTableViewController.h; sourceTree = "<group>"; };
+		186ACF121F14D74800EE00F7 /* AboutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutTableViewController.m; sourceTree = "<group>"; };
+		187A721E1FF4E56E00CA55C1 /* YQRightImgButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRightImgButton.h; sourceTree = "<group>"; };
+		187A721F1FF4E56E00CA55C1 /* YQRightImgButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRightImgButton.m; sourceTree = "<group>"; };
+		187A72211FF4E9F800CA55C1 /* YQReportStateMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQReportStateMenuView.h; sourceTree = "<group>"; };
+		187A72221FF4E9F800CA55C1 /* YQReportStateMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQReportStateMenuView.m; sourceTree = "<group>"; };
+		187A72241FF4EB0500CA55C1 /* YQCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCoverView.h; sourceTree = "<group>"; };
+		187A72251FF4EB0500CA55C1 /* YQCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCoverView.m; sourceTree = "<group>"; };
+		187C4A171FEB659C0089309F /* UIView+YQSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YQSafe.h"; sourceTree = "<group>"; };
+		187C4A181FEB659C0089309F /* UIView+YQSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YQSafe.m"; sourceTree = "<group>"; };
+		187C4A1A1FEBA3120089309F /* UILabel+YQLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YQLabel.h"; sourceTree = "<group>"; };
+		187C4A1B1FEBA3120089309F /* UILabel+YQLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YQLabel.m"; sourceTree = "<group>"; };
+		187C4A1F1FEBAB800089309F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		187C4A201FEBAB800089309F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		187C4A211FEBAB800089309F /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
+		187C4A221FEBAB800089309F /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
+		187C4A231FEBAB800089309F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		187C4A241FEBAB800089309F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		187C4A271FEBAB800089309F /* YQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQTextField.h; sourceTree = "<group>"; };
+		187C4A281FEBAB800089309F /* YQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQTextField.m; sourceTree = "<group>"; };
+		187C4A291FEBAB800089309F /* YQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQTextView.h; sourceTree = "<group>"; };
+		187C4A2A1FEBAB800089309F /* YQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQTextView.m; sourceTree = "<group>"; };
+		187C4A301FEBAC6D0089309F /* YQLoginBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQLoginBaseViewController.h; sourceTree = "<group>"; };
+		187C4A311FEBAC6D0089309F /* YQLoginBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQLoginBaseViewController.m; sourceTree = "<group>"; };
+		187C4A331FEBB2D10089309F /* YQNewPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQNewPasswordViewController.h; sourceTree = "<group>"; };
+		187C4A341FEBB2D10089309F /* YQNewPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQNewPasswordViewController.m; sourceTree = "<group>"; };
+		187C4A361FEBB9230089309F /* NSString+YQCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YQCategory.h"; sourceTree = "<group>"; };
+		187C4A371FEBB9230089309F /* NSString+YQCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YQCategory.m"; sourceTree = "<group>"; };
+		18A9AE5F1FF22C2D002681F6 /* HomeTableViewScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewScrollCell.m; sourceTree = "<group>"; };
+		18A9AE601FF22C2E002681F6 /* HomeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCollectionViewCell.m; sourceTree = "<group>"; };
+		18A9AE611FF22C2F002681F6 /* HomeTableViewQACell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewQACell.m; sourceTree = "<group>"; };
+		18A9AE621FF22C2F002681F6 /* HomeTableViewScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewScrollCell.h; sourceTree = "<group>"; };
+		18A9AE631FF22C2F002681F6 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		18A9AE641FF22C30002681F6 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		18A9AE651FF22C30002681F6 /* HomeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCollectionViewCell.h; sourceTree = "<group>"; };
+		18A9AE661FF22C31002681F6 /* HomeTableViewQACell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewQACell.h; sourceTree = "<group>"; };
+		18AFA3101FE8F99100710E99 /* YQNewFeaureController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQNewFeaureController.h; sourceTree = "<group>"; };
+		18AFA3111FE8F99100710E99 /* YQNewFeaureController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQNewFeaureController.m; sourceTree = "<group>"; };
+		18AFA3131FE8FF8B00710E99 /* YQNewFeatureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQNewFeatureCell.h; sourceTree = "<group>"; };
+		18AFA3141FE8FF8B00710E99 /* YQNewFeatureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQNewFeatureCell.m; sourceTree = "<group>"; };
+		18AFA3161FE9135000710E99 /* YQNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQNavigationController.h; sourceTree = "<group>"; };
+		18AFA3171FE9135000710E99 /* YQNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQNavigationController.m; sourceTree = "<group>"; };
+		18AFA3191FE9FD5B00710E99 /* YQPersonalCellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQPersonalCellItem.h; sourceTree = "<group>"; };
+		18AFA31A1FE9FD5B00710E99 /* YQPersonalCellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPersonalCellItem.m; sourceTree = "<group>"; };
+		18AFA31C1FE9FF7B00710E99 /* YQGroupItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQGroupItem.h; sourceTree = "<group>"; };
+		18AFA31D1FE9FF7B00710E99 /* YQGroupItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQGroupItem.m; sourceTree = "<group>"; };
+		18AFA31F1FEA02F300710E99 /* YQPersonalCellArrowItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQPersonalCellArrowItem.h; sourceTree = "<group>"; };
+		18AFA3201FEA02F300710E99 /* YQPersonalCellArrowItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPersonalCellArrowItem.m; sourceTree = "<group>"; };
+		18AFA3221FEA07DE00710E99 /* YQPersonalHeaderCellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQPersonalHeaderCellItem.h; sourceTree = "<group>"; };
+		18AFA3231FEA07DE00710E99 /* YQPersonalHeaderCellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPersonalHeaderCellItem.m; sourceTree = "<group>"; };
+		18AFA3251FEA0D9D00710E99 /* YQPersonalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQPersonalCell.h; sourceTree = "<group>"; };
+		18AFA3261FEA0D9D00710E99 /* YQPersonalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPersonalCell.m; sourceTree = "<group>"; };
+		18AFA3321FEA5D4000710E99 /* YQCarSourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarSourceViewController.h; sourceTree = "<group>"; };
+		18AFA3331FEA5D4000710E99 /* YQCarSourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarSourceViewController.m; sourceTree = "<group>"; };
+		18DD1DD71F0B6BE300B7DA05 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		18DD1DD81F0B6BE300B7DA05 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		18DD1DDA1F0B6C3000B7DA05 /* MainTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarItem.h; sourceTree = "<group>"; };
+		18DD1DDB1F0B6C3000B7DA05 /* MainTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarItem.m; sourceTree = "<group>"; };
+		18DD1DDE1F0B7C7700B7DA05 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		18DD1DDF1F0B7C7700B7DA05 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		18E368981FF34F52004DE661 /* YQHomeHeaderLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeHeaderLabel.h; sourceTree = "<group>"; };
+		18E368991FF34F52004DE661 /* YQHomeHeaderLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeHeaderLabel.m; sourceTree = "<group>"; };
+		18E3689B1FF38D83004DE661 /* YQQACellCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQQACellCell.h; sourceTree = "<group>"; };
+		18E3689C1FF38D83004DE661 /* YQQACellCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQQACellCell.m; sourceTree = "<group>"; };
+		18E3689E1FF38FAB004DE661 /* YQQACellItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQQACellItem.h; sourceTree = "<group>"; };
+		18E3689F1FF38FAB004DE661 /* YQQACellItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQQACellItem.m; sourceTree = "<group>"; };
+		18E368A11FF3A40A004DE661 /* YQHomeQAModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeQAModel.h; sourceTree = "<group>"; };
+		18E5FBA81FECD4A100EED164 /* YQSessionTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSessionTool.h; sourceTree = "<group>"; };
+		18E5FBA91FECD4A100EED164 /* YQSessionTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSessionTool.m; sourceTree = "<group>"; };
+		18E5FBAB1FECECB300EED164 /* YQRegisterAgreementView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRegisterAgreementView.h; sourceTree = "<group>"; };
+		18E5FBAC1FECECB300EED164 /* YQRegisterAgreementView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRegisterAgreementView.m; sourceTree = "<group>"; };
+		18E67CC31F0B29D7001919EA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18E67CC41F0B29D7001919EA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		18E67CC61F0B29E8001919EA /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		18E67CC71F0B29E8001919EA /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		18E67CC91F0B29FC001919EA /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		18E67CCA1F0B29FC001919EA /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		18E67CCC1F0B3F2F001919EA /* CarSeriouslyPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarSeriouslyPrefixHeader.pch; sourceTree = "<group>"; };
+		18E8518C1FFF176500F2908B /* YQReportDetailSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQReportDetailSectionHeaderView.h; sourceTree = "<group>"; };
+		18E8518D1FFF176500F2908B /* YQReportDetailSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQReportDetailSectionHeaderView.m; sourceTree = "<group>"; };
+		18E8518F1FFF51F700F2908B /* YQCarReportDetailRepairCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarReportDetailRepairCell.h; sourceTree = "<group>"; };
+		18E851901FFF51F700F2908B /* YQCarReportDetailRepairCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarReportDetailRepairCell.m; sourceTree = "<group>"; };
+		18E851911FFF51F700F2908B /* YQCarReportDetailRepairCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQCarReportDetailRepairCell.xib; sourceTree = "<group>"; };
+		18EE86F51F009901006A40B1 /* CarSeriously.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSeriously.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EE86F91F009901006A40B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18EE86FB1F009901006A40B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18EE86FC1F009901006A40B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18EE87021F009901006A40B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18EE87041F009901006A40B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EE87071F009901006A40B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EE87091F009901006A40B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EE870E1F009901006A40B1 /* CarSeriouslyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSeriouslyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EE87121F009901006A40B1 /* CarSeriouslyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarSeriouslyTests.m; sourceTree = "<group>"; };
+		18EE87141F009901006A40B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EE87191F009901006A40B1 /* CarSeriouslyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarSeriouslyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EE871D1F009901006A40B1 /* CarSeriouslyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarSeriouslyUITests.m; sourceTree = "<group>"; };
+		18EE871F1F009901006A40B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F4F4431FFDBFA9004C0CD6 /* YQReportDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQReportDetailViewController.h; sourceTree = "<group>"; };
+		18F4F4441FFDBFA9004C0CD6 /* YQReportDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQReportDetailViewController.m; sourceTree = "<group>"; };
+		18F4F4461FFDC00A004C0CD6 /* YQReportDetailHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQReportDetailHeaderView.h; sourceTree = "<group>"; };
+		18F4F4471FFDC00A004C0CD6 /* YQReportDetailHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQReportDetailHeaderView.m; sourceTree = "<group>"; };
+		18F4F4491FFDDE0C004C0CD6 /* YQLeftLineLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQLeftLineLabel.h; sourceTree = "<group>"; };
+		18F4F44A1FFDDE0C004C0CD6 /* YQLeftLineLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQLeftLineLabel.m; sourceTree = "<group>"; };
+		18F4F44C1FFDFBF3004C0CD6 /* YQCarReportDetailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarReportDetailCell.h; sourceTree = "<group>"; };
+		18F4F44D1FFDFBF3004C0CD6 /* YQCarReportDetailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarReportDetailCell.m; sourceTree = "<group>"; };
+		18F4F44F1FFDFE75004C0CD6 /* YQCarPartReportDetailItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarPartReportDetailItem.h; sourceTree = "<group>"; };
+		18F4F4501FFDFE75004C0CD6 /* YQCarPartReportDetailItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarPartReportDetailItem.m; sourceTree = "<group>"; };
+		18F4F4521FFE0840004C0CD6 /* YQCarPart.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = YQCarPart.plist; sourceTree = "<group>"; };
+		5D43BCA774EE996379D2DB19 /* Pods-CarSeriously.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSeriously.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CarSeriously/Pods-CarSeriously.debug.xcconfig"; sourceTree = "<group>"; };
+		68DFDD45CD0064A9BEF98E85 /* libPods-CarSeriously.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarSeriously.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B6A1B84EE09A94D5DC5730 /* Pods-CarSeriously.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarSeriously.release.xcconfig"; path = "Pods/Target Support Files/Pods-CarSeriously/Pods-CarSeriously.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EE86F21F009901006A40B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				158567371BDA33103552C4DB /* libPods-CarSeriously.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE870B1F009901006A40B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE87161F009901006A40B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181CFD981FFCCADE00D3DD4F /* SellCar */ = {
+			isa = PBXGroup;
+			children = (
+				181CFD991FFCCADE00D3DD4F /* Control */,
+				181CFD9A1FFCCADE00D3DD4F /* Model */,
+				181CFD9B1FFCCADE00D3DD4F /* View */,
+			);
+			path = SellCar;
+			sourceTree = "<group>";
+		};
+		181CFD991FFCCADE00D3DD4F /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				181CFD9D1FFCCB0800D3DD4F /* YQSellCarInfoViewController.h */,
+				181CFD9C1FFCCB0800D3DD4F /* YQSellCarInfoViewController.m */,
+				181CFD9E1FFCCB0800D3DD4F /* YQSellCarViewController.h */,
+				181CFD9F1FFCCB0800D3DD4F /* YQSellCarViewController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		181CFD9A1FFCCADE00D3DD4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				181CFDA51FFCCD9A00D3DD4F /* YQSellCarInfoModel.h */,
+				181CFDA61FFCCD9A00D3DD4F /* YQSellCarInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		181CFD9B1FFCCADE00D3DD4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181CFDA21FFCCB3500D3DD4F /* YQSellCarInfoCell.h */,
+				181CFDA31FFCCB3500D3DD4F /* YQSellCarInfoCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1823D1651FF61E4200059CA5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1823D1661FF61E4C00059CA5 /* cars.plist */,
+				18F4F4521FFE0840004C0CD6 /* YQCarPart.plist */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		187C4A1D1FEBAB800089309F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				187C4A1E1FEBAB800089309F /* Controller */,
+				187C4A251FEBAB800089309F /* Model */,
+				187C4A261FEBAB800089309F /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		187C4A1E1FEBAB800089309F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				187C4A1F1FEBAB800089309F /* LoginViewController.h */,
+				187C4A201FEBAB800089309F /* LoginViewController.m */,
+				187C4A211FEBAB800089309F /* PasswordViewController.h */,
+				187C4A221FEBAB800089309F /* PasswordViewController.m */,
+				187C4A331FEBB2D10089309F /* YQNewPasswordViewController.h */,
+				187C4A341FEBB2D10089309F /* YQNewPasswordViewController.m */,
+				187C4A231FEBAB800089309F /* RegisterViewController.h */,
+				187C4A241FEBAB800089309F /* RegisterViewController.m */,
+				187C4A301FEBAC6D0089309F /* YQLoginBaseViewController.h */,
+				187C4A311FEBAC6D0089309F /* YQLoginBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		187C4A251FEBAB800089309F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		187C4A261FEBAB800089309F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				187C4A271FEBAB800089309F /* YQTextField.h */,
+				187C4A281FEBAB800089309F /* YQTextField.m */,
+				187C4A291FEBAB800089309F /* YQTextView.h */,
+				187C4A2A1FEBAB800089309F /* YQTextView.m */,
+				18E5FBAB1FECECB300EED164 /* YQRegisterAgreementView.h */,
+				18E5FBAC1FECECB300EED164 /* YQRegisterAgreementView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18AFA30C1FE8F96200710E99 /* Newfeature */ = {
+			isa = PBXGroup;
+			children = (
+				18AFA30D1FE8F96200710E99 /* Controller */,
+				18AFA30E1FE8F96200710E99 /* Model */,
+				18AFA30F1FE8F96200710E99 /* View */,
+			);
+			path = Newfeature;
+			sourceTree = SOURCE_ROOT;
+		};
+		18AFA30D1FE8F96200710E99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18AFA3101FE8F99100710E99 /* YQNewFeaureController.h */,
+				18AFA3111FE8F99100710E99 /* YQNewFeaureController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18AFA30E1FE8F96200710E99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18AFA30F1FE8F96200710E99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18AFA3131FE8FF8B00710E99 /* YQNewFeatureCell.h */,
+				18AFA3141FE8FF8B00710E99 /* YQNewFeatureCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18AFA32E1FEA5D2A00710E99 /* CarSource */ = {
+			isa = PBXGroup;
+			children = (
+				18AFA32F1FEA5D2A00710E99 /* Controller */,
+				18AFA3301FEA5D2A00710E99 /* Model */,
+				18AFA3311FEA5D2A00710E99 /* View */,
+			);
+			path = CarSource;
+			sourceTree = "<group>";
+		};
+		18AFA32F1FEA5D2A00710E99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18AFA3321FEA5D4000710E99 /* YQCarSourceViewController.h */,
+				18AFA3331FEA5D4000710E99 /* YQCarSourceViewController.m */,
+				1823D1681FF61EA500059CA5 /* YQCarBrandViewController.h */,
+				1823D1691FF61EA500059CA5 /* YQCarBrandViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18AFA3301FEA5D2A00710E99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18AFA3311FEA5D2A00710E99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1823D1621FF6094F00059CA5 /* YQCarSourceCell.h */,
+				1823D1631FF6094F00059CA5 /* YQCarSourceCell.m */,
+				1823D16E1FF6358E00059CA5 /* YQCarSourceReportStateMenuView.h */,
+				1823D16F1FF6358E00059CA5 /* YQCarSourceReportStateMenuView.m */,
+				1823D16B1FF631A900059CA5 /* YQIntervalValueCell.h */,
+				1823D16C1FF631A900059CA5 /* YQIntervalValueCell.m */,
+				1837FBF31FFB303C008D42B5 /* YQSectionSlider.h */,
+				1837FBF41FFB303C008D42B5 /* YQSectionSlider.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18DD1DD61F0B6BB500B7DA05 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18DD1DD71F0B6BE300B7DA05 /* MainTabBarController.h */,
+				18DD1DD81F0B6BE300B7DA05 /* MainTabBarController.m */,
+				18AFA3161FE9135000710E99 /* YQNavigationController.h */,
+				18AFA3171FE9135000710E99 /* YQNavigationController.m */,
+				18DD1DDA1F0B6C3000B7DA05 /* MainTabBarItem.h */,
+				18DD1DDB1F0B6C3000B7DA05 /* MainTabBarItem.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18DD1DDD1F0B7B5F00B7DA05 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				18DD1DDE1F0B7C7700B7DA05 /* UIView+frame.h */,
+				18DD1DDF1F0B7C7700B7DA05 /* UIView+frame.m */,
+				187C4A171FEB659C0089309F /* UIView+YQSafe.h */,
+				187C4A181FEB659C0089309F /* UIView+YQSafe.m */,
+				187C4A1A1FEBA3120089309F /* UILabel+YQLabel.h */,
+				187C4A1B1FEBA3120089309F /* UILabel+YQLabel.m */,
+				187C4A361FEBB9230089309F /* NSString+YQCategory.h */,
+				187C4A371FEBB9230089309F /* NSString+YQCategory.m */,
+				181CFD8F1FFCC62100D3DD4F /* YQCGImage.h */,
+				181CFD901FFCC62100D3DD4F /* YQCGImage.m */,
+				18E5FBA81FECD4A100EED164 /* YQSessionTool.h */,
+				18E5FBA91FECD4A100EED164 /* YQSessionTool.m */,
+				187A72241FF4EB0500CA55C1 /* YQCoverView.h */,
+				187A72251FF4EB0500CA55C1 /* YQCoverView.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		18E67CB71F0B28C1001919EA /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				18E67CB81F0B28C1001919EA /* Controller */,
+				18E67CB91F0B28C1001919EA /* Model */,
+				18E67CBA1F0B28C1001919EA /* View */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		18E67CB81F0B28C1001919EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18E67CC31F0B29D7001919EA /* HomeViewController.h */,
+				18E67CC41F0B29D7001919EA /* HomeViewController.m */,
+				183A736C1F15B9CD0053B92F /* HomeRepairViewController.h */,
+				183A736D1F15B9CD0053B92F /* HomeRepairViewController.m */,
+				181CFD891FFCB5C400D3DD4F /* YQHomeLoanViewController.h */,
+				181CFD8A1FFCB5C400D3DD4F /* YQHomeLoanViewController.m */,
+				183A736F1F162B6C0053B92F /* PaymentViewController.h */,
+				183A73701F162B6C0053B92F /* PaymentViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18E67CB91F0B28C1001919EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1832C3DC1FF1E83B000C4BBD /* YQHomeCellItem.h */,
+				1832C3DD1FF1E83B000C4BBD /* YQHomeCellItem.m */,
+				18E3689E1FF38FAB004DE661 /* YQQACellItem.h */,
+				18E3689F1FF38FAB004DE661 /* YQQACellItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18E67CBA1F0B28C1001919EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18A9AE651FF22C30002681F6 /* HomeCollectionViewCell.h */,
+				18A9AE601FF22C2E002681F6 /* HomeCollectionViewCell.m */,
+				18A9AE641FF22C30002681F6 /* HomeTableViewCell.h */,
+				18A9AE631FF22C2F002681F6 /* HomeTableViewCell.m */,
+				18A9AE661FF22C31002681F6 /* HomeTableViewQACell.h */,
+				18A9AE611FF22C2F002681F6 /* HomeTableViewQACell.m */,
+				18E3689B1FF38D83004DE661 /* YQQACellCell.h */,
+				18E3689C1FF38D83004DE661 /* YQQACellCell.m */,
+				18A9AE621FF22C2F002681F6 /* HomeTableViewScrollCell.h */,
+				18A9AE5F1FF22C2D002681F6 /* HomeTableViewScrollCell.m */,
+				1832C3D71FF1059F000C4BBD /* YQHomeVINView.h */,
+				1832C3D81FF1059F000C4BBD /* YQHomeVINView.m */,
+				1832C3DA1FF105EC000C4BBD /* YQHomeVINView.xib */,
+				1832C3DF1FF1EB48000C4BBD /* YQHomeCell.h */,
+				1832C3E01FF1EB48000C4BBD /* YQHomeCell.m */,
+				1832C3E21FF1F777000C4BBD /* YQHomeHeaderView.h */,
+				1832C3E31FF1F777000C4BBD /* YQHomeHeaderView.m */,
+				18E368981FF34F52004DE661 /* YQHomeHeaderLabel.h */,
+				18E368991FF34F52004DE661 /* YQHomeHeaderLabel.m */,
+				18E368A11FF3A40A004DE661 /* YQHomeQAModel.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18E67CBB1F0B28CA001919EA /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				18E67CBC1F0B28CA001919EA /* Controller */,
+				18E67CBD1F0B28CA001919EA /* Model */,
+				18E67CBE1F0B28CA001919EA /* View */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		18E67CBC1F0B28CA001919EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18E67CC61F0B29E8001919EA /* RecordViewController.h */,
+				18E67CC71F0B29E8001919EA /* RecordViewController.m */,
+				18498D9B1F0CBD0E009A7C74 /* RepairViewController.h */,
+				18498D9C1F0CBD0E009A7C74 /* RepairViewController.m */,
+				18498DA41F0CE29A009A7C74 /* InsuranceTableViewController.h */,
+				18498DA51F0CE29A009A7C74 /* InsuranceTableViewController.m */,
+				18498DA71F0CE699009A7C74 /* TransferTableViewController.h */,
+				18498DA81F0CE699009A7C74 /* TransferTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18E67CBD1F0B28CA001919EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1823D15F1FF5F2DE00059CA5 /* YQReportMenuItem.h */,
+				1823D1601FF5F2DE00059CA5 /* YQReportMenuItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18E67CBE1F0B28CA001919EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18498DA11F0CD544009A7C74 /* RepairTableViewCell.h */,
+				18498DA21F0CD544009A7C74 /* RepairTableViewCell.m */,
+				187A72211FF4E9F800CA55C1 /* YQReportStateMenuView.h */,
+				187A72221FF4E9F800CA55C1 /* YQReportStateMenuView.m */,
+				187A721E1FF4E56E00CA55C1 /* YQRightImgButton.h */,
+				187A721F1FF4E56E00CA55C1 /* YQRightImgButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18E67CBF1F0B28D3001919EA /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				18E67CC01F0B28D3001919EA /* Controller */,
+				18E67CC11F0B28D3001919EA /* Model */,
+				18E67CC21F0B28D3001919EA /* View */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		18E67CC01F0B28D3001919EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18E67CC91F0B29FC001919EA /* PersonalViewController.h */,
+				18E67CCA1F0B29FC001919EA /* PersonalViewController.m */,
+				1832C3CE1FF0F4DE000C4BBD /* YQPersonalInfoViewController.h */,
+				1832C3CF1FF0F4DE000C4BBD /* YQPersonalInfoViewController.m */,
+				1832C3C51FF08CCC000C4BBD /* YQCarCollectionViewController.h */,
+				1832C3C61FF08CCC000C4BBD /* YQCarCollectionViewController.m */,
+				1832C3CB1FF0D8EE000C4BBD /* YQFeedbackViewController.h */,
+				1832C3CC1FF0D8EE000C4BBD /* YQFeedbackViewController.m */,
+				186ACF111F14D74800EE00F7 /* AboutTableViewController.h */,
+				186ACF121F14D74800EE00F7 /* AboutTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18E67CC11F0B28D3001919EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18AFA3191FE9FD5B00710E99 /* YQPersonalCellItem.h */,
+				18AFA31A1FE9FD5B00710E99 /* YQPersonalCellItem.m */,
+				18AFA31F1FEA02F300710E99 /* YQPersonalCellArrowItem.h */,
+				18AFA3201FEA02F300710E99 /* YQPersonalCellArrowItem.m */,
+				18AFA3221FEA07DE00710E99 /* YQPersonalHeaderCellItem.h */,
+				18AFA3231FEA07DE00710E99 /* YQPersonalHeaderCellItem.m */,
+				1832C3D11FF0F5CE000C4BBD /* YQPersonalInfoItem.h */,
+				1832C3D21FF0F5CE000C4BBD /* YQPersonalInfoItem.m */,
+				1832C3D41FF0FCC1000C4BBD /* YQPersonalInfoHeaderItem.h */,
+				1832C3D51FF0FCC1000C4BBD /* YQPersonalInfoHeaderItem.m */,
+				18AFA31C1FE9FF7B00710E99 /* YQGroupItem.h */,
+				18AFA31D1FE9FF7B00710E99 /* YQGroupItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18E67CC21F0B28D3001919EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18AFA3251FEA0D9D00710E99 /* YQPersonalCell.h */,
+				18AFA3261FEA0D9D00710E99 /* YQPersonalCell.m */,
+				1832C3C81FF08CE7000C4BBD /* YQCarCollectionCell.h */,
+				1832C3C91FF08CE7000C4BBD /* YQCarCollectionCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EE86EC1F009901006A40B1 = {
+			isa = PBXGroup;
+			children = (
+				18EE86F71F009901006A40B1 /* CarSeriously */,
+				18EE87111F009901006A40B1 /* CarSeriouslyTests */,
+				18EE871C1F009901006A40B1 /* CarSeriouslyUITests */,
+				18EE86F61F009901006A40B1 /* Products */,
+				CFCFF9B22E64F034187C41A3 /* Pods */,
+				D35B1634FBDBC28EB7879D61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18EE86F61F009901006A40B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EE86F51F009901006A40B1 /* CarSeriously.app */,
+				18EE870E1F009901006A40B1 /* CarSeriouslyTests.xctest */,
+				18EE87191F009901006A40B1 /* CarSeriouslyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EE86F71F009901006A40B1 /* CarSeriously */ = {
+			isa = PBXGroup;
+			children = (
+				18EE86FB1F009901006A40B1 /* AppDelegate.h */,
+				18EE86FC1F009901006A40B1 /* AppDelegate.m */,
+				18DD1DD61F0B6BB500B7DA05 /* Main */,
+				18E67CB71F0B28C1001919EA /* HomePage */,
+				181CFD981FFCCADE00D3DD4F /* SellCar */,
+				18AFA32E1FEA5D2A00710E99 /* CarSource */,
+				18E67CBB1F0B28CA001919EA /* Record */,
+				18E67CBF1F0B28D3001919EA /* Personal */,
+				187C4A1D1FEBAB800089309F /* Login */,
+				18AFA30C1FE8F96200710E99 /* Newfeature */,
+				18F4F43F1FFDBF84004C0CD6 /* ReportDetail */,
+				18DD1DDD1F0B7B5F00B7DA05 /* Tools */,
+				1823D1651FF61E4200059CA5 /* Source */,
+				18EE87011F009901006A40B1 /* Main.storyboard */,
+				18EE87041F009901006A40B1 /* Assets.xcassets */,
+				18EE87061F009901006A40B1 /* LaunchScreen.storyboard */,
+				18EE87091F009901006A40B1 /* Info.plist */,
+				18E67CCC1F0B3F2F001919EA /* CarSeriouslyPrefixHeader.pch */,
+				18EE86F81F009901006A40B1 /* Supporting Files */,
+			);
+			path = CarSeriously;
+			sourceTree = "<group>";
+		};
+		18EE86F81F009901006A40B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18EE86F91F009901006A40B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18EE87111F009901006A40B1 /* CarSeriouslyTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EE87121F009901006A40B1 /* CarSeriouslyTests.m */,
+				18EE87141F009901006A40B1 /* Info.plist */,
+			);
+			path = CarSeriouslyTests;
+			sourceTree = "<group>";
+		};
+		18EE871C1F009901006A40B1 /* CarSeriouslyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EE871D1F009901006A40B1 /* CarSeriouslyUITests.m */,
+				18EE871F1F009901006A40B1 /* Info.plist */,
+			);
+			path = CarSeriouslyUITests;
+			sourceTree = "<group>";
+		};
+		18F4F43F1FFDBF84004C0CD6 /* ReportDetail */ = {
+			isa = PBXGroup;
+			children = (
+				18F4F4401FFDBF84004C0CD6 /* Control */,
+				18F4F4411FFDBF84004C0CD6 /* Model */,
+				18F4F4421FFDBF84004C0CD6 /* View */,
+			);
+			path = ReportDetail;
+			sourceTree = "<group>";
+		};
+		18F4F4401FFDBF84004C0CD6 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				18F4F4431FFDBFA9004C0CD6 /* YQReportDetailViewController.h */,
+				18F4F4441FFDBFA9004C0CD6 /* YQReportDetailViewController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		18F4F4411FFDBF84004C0CD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18F4F44F1FFDFE75004C0CD6 /* YQCarPartReportDetailItem.h */,
+				18F4F4501FFDFE75004C0CD6 /* YQCarPartReportDetailItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18F4F4421FFDBF84004C0CD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18F4F4461FFDC00A004C0CD6 /* YQReportDetailHeaderView.h */,
+				18F4F4471FFDC00A004C0CD6 /* YQReportDetailHeaderView.m */,
+				18F4F44C1FFDFBF3004C0CD6 /* YQCarReportDetailCell.h */,
+				18F4F44D1FFDFBF3004C0CD6 /* YQCarReportDetailCell.m */,
+				18E8518F1FFF51F700F2908B /* YQCarReportDetailRepairCell.h */,
+				18E851901FFF51F700F2908B /* YQCarReportDetailRepairCell.m */,
+				18E851911FFF51F700F2908B /* YQCarReportDetailRepairCell.xib */,
+				18E8518C1FFF176500F2908B /* YQReportDetailSectionHeaderView.h */,
+				18E8518D1FFF176500F2908B /* YQReportDetailSectionHeaderView.m */,
+				18F4F4491FFDDE0C004C0CD6 /* YQLeftLineLabel.h */,
+				18F4F44A1FFDDE0C004C0CD6 /* YQLeftLineLabel.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFCFF9B22E64F034187C41A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D43BCA774EE996379D2DB19 /* Pods-CarSeriously.debug.xcconfig */,
+				D8B6A1B84EE09A94D5DC5730 /* Pods-CarSeriously.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35B1634FBDBC28EB7879D61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68DFDD45CD0064A9BEF98E85 /* libPods-CarSeriously.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EE86F41F009901006A40B1 /* CarSeriously */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EE87221F009901006A40B1 /* Build configuration list for PBXNativeTarget "CarSeriously" */;
+			buildPhases = (
+				61D00DE348CED608F2450F6F /* [CP] Check Pods Manifest.lock */,
+				18EE86F11F009901006A40B1 /* Sources */,
+				18EE86F21F009901006A40B1 /* Frameworks */,
+				18EE86F31F009901006A40B1 /* Resources */,
+				CE03908D9DF39E8A7590493E /* [CP] Embed Pods Frameworks */,
+				4EDC297504BF6DFF266F2073 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarSeriously;
+			productName = CarSeriously;
+			productReference = 18EE86F51F009901006A40B1 /* CarSeriously.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EE870D1F009901006A40B1 /* CarSeriouslyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EE87251F009901006A40B1 /* Build configuration list for PBXNativeTarget "CarSeriouslyTests" */;
+			buildPhases = (
+				18EE870A1F009901006A40B1 /* Sources */,
+				18EE870B1F009901006A40B1 /* Frameworks */,
+				18EE870C1F009901006A40B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EE87101F009901006A40B1 /* PBXTargetDependency */,
+			);
+			name = CarSeriouslyTests;
+			productName = CarSeriouslyTests;
+			productReference = 18EE870E1F009901006A40B1 /* CarSeriouslyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EE87181F009901006A40B1 /* CarSeriouslyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EE87281F009901006A40B1 /* Build configuration list for PBXNativeTarget "CarSeriouslyUITests" */;
+			buildPhases = (
+				18EE87151F009901006A40B1 /* Sources */,
+				18EE87161F009901006A40B1 /* Frameworks */,
+				18EE87171F009901006A40B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EE871B1F009901006A40B1 /* PBXTargetDependency */,
+			);
+			name = CarSeriouslyUITests;
+			productName = CarSeriouslyUITests;
+			productReference = 18EE87191F009901006A40B1 /* CarSeriouslyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EE86ED1F009901006A40B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YQ;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = yuanqiao;
+				TargetAttributes = {
+					18EE86F41F009901006A40B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JS6J3KA38W;
+						ProvisioningStyle = Automatic;
+					};
+					18EE870D1F009901006A40B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JS6J3KA38W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18EE86F41F009901006A40B1;
+					};
+					18EE87181F009901006A40B1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JS6J3KA38W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18EE86F41F009901006A40B1;
+					};
+				};
+			};
+			buildConfigurationList = 18EE86F01F009901006A40B1 /* Build configuration list for PBXProject "CarSeriously" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18EE86EC1F009901006A40B1;
+			productRefGroup = 18EE86F61F009901006A40B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EE86F41F009901006A40B1 /* CarSeriously */,
+				18EE870D1F009901006A40B1 /* CarSeriouslyTests */,
+				18EE87181F009901006A40B1 /* CarSeriouslyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EE86F31F009901006A40B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE87081F009901006A40B1 /* LaunchScreen.storyboard in Resources */,
+				1832C3DB1FF105EC000C4BBD /* YQHomeVINView.xib in Resources */,
+				18F4F4531FFE0840004C0CD6 /* YQCarPart.plist in Resources */,
+				18EE87051F009901006A40B1 /* Assets.xcassets in Resources */,
+				18E851931FFF51F700F2908B /* YQCarReportDetailRepairCell.xib in Resources */,
+				1823D1671FF61E4C00059CA5 /* cars.plist in Resources */,
+				18EE87031F009901006A40B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE870C1F009901006A40B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE87171F009901006A40B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EDC297504BF6DFF266F2073 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarSeriously/Pods-CarSeriously-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61D00DE348CED608F2450F6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarSeriously-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE03908D9DF39E8A7590493E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CarSeriously/Pods-CarSeriously-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EE86F11F009901006A40B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1832C3E11FF1EB48000C4BBD /* YQHomeCell.m in Sources */,
+				18F4F44E1FFDFBF3004C0CD6 /* YQCarReportDetailCell.m in Sources */,
+				18498DA61F0CE29A009A7C74 /* InsuranceTableViewController.m in Sources */,
+				18F4F44B1FFDDE0C004C0CD6 /* YQLeftLineLabel.m in Sources */,
+				18E67CCB1F0B29FC001919EA /* PersonalViewController.m in Sources */,
+				18DD1DD91F0B6BE300B7DA05 /* MainTabBarController.m in Sources */,
+				1837FBF51FFB303C008D42B5 /* YQSectionSlider.m in Sources */,
+				1823D16D1FF631A900059CA5 /* YQIntervalValueCell.m in Sources */,
+				187C4A1C1FEBA3120089309F /* UILabel+YQLabel.m in Sources */,
+				181CFDA41FFCCB3500D3DD4F /* YQSellCarInfoCell.m in Sources */,
+				187C4A2C1FEBAB800089309F /* PasswordViewController.m in Sources */,
+				18498DA91F0CE699009A7C74 /* TransferTableViewController.m in Sources */,
+				183A736E1F15B9CD0053B92F /* HomeRepairViewController.m in Sources */,
+				18E5FBAA1FECD4A100EED164 /* YQSessionTool.m in Sources */,
+				18DD1DE01F0B7C7700B7DA05 /* UIView+frame.m in Sources */,
+				18AFA3211FEA02F300710E99 /* YQPersonalCellArrowItem.m in Sources */,
+				18E8518E1FFF176500F2908B /* YQReportDetailSectionHeaderView.m in Sources */,
+				187C4A351FEBB2D10089309F /* YQNewPasswordViewController.m in Sources */,
+				18F4F4451FFDBFAA004C0CD6 /* YQReportDetailViewController.m in Sources */,
+				181CFD8B1FFCB5C400D3DD4F /* YQHomeLoanViewController.m in Sources */,
+				187A72201FF4E56E00CA55C1 /* YQRightImgButton.m in Sources */,
+				18A9AE6A1FF22C32002681F6 /* HomeTableViewCell.m in Sources */,
+				1832C3CA1FF08CE7000C4BBD /* YQCarCollectionCell.m in Sources */,
+				1832C3DE1FF1E83B000C4BBD /* YQHomeCellItem.m in Sources */,
+				1832C3E41FF1F777000C4BBD /* YQHomeHeaderView.m in Sources */,
+				18DD1DDC1F0B6C3000B7DA05 /* MainTabBarItem.m in Sources */,
+				187C4A321FEBAC6D0089309F /* YQLoginBaseViewController.m in Sources */,
+				187C4A191FEB659C0089309F /* UIView+YQSafe.m in Sources */,
+				1832C3D31FF0F5CF000C4BBD /* YQPersonalInfoItem.m in Sources */,
+				18EE86FD1F009901006A40B1 /* AppDelegate.m in Sources */,
+				187A72231FF4E9F800CA55C1 /* YQReportStateMenuView.m in Sources */,
+				18E3689D1FF38D83004DE661 /* YQQACellCell.m in Sources */,
+				18EE86FA1F009901006A40B1 /* main.m in Sources */,
+				1823D1611FF5F2DE00059CA5 /* YQReportMenuItem.m in Sources */,
+				186ACF131F14D74800EE00F7 /* AboutTableViewController.m in Sources */,
+				18E67CC51F0B29D7001919EA /* HomeViewController.m in Sources */,
+				18AFA3241FEA07DE00710E99 /* YQPersonalHeaderCellItem.m in Sources */,
+				18AFA3151FE8FF8B00710E99 /* YQNewFeatureCell.m in Sources */,
+				18E5FBAD1FECECB300EED164 /* YQRegisterAgreementView.m in Sources */,
+				18E67CC81F0B29E8001919EA /* RecordViewController.m in Sources */,
+				1832C3D91FF1059F000C4BBD /* YQHomeVINView.m in Sources */,
+				18A9AE691FF22C32002681F6 /* HomeTableViewQACell.m in Sources */,
+				18E3689A1FF34F52004DE661 /* YQHomeHeaderLabel.m in Sources */,
+				18AFA3121FE8F99100710E99 /* YQNewFeaureController.m in Sources */,
+				181CFDA71FFCCD9A00D3DD4F /* YQSellCarInfoModel.m in Sources */,
+				187C4A2E1FEBAB800089309F /* YQTextField.m in Sources */,
+				18E851921FFF51F700F2908B /* YQCarReportDetailRepairCell.m in Sources */,
+				18A9AE671FF22C32002681F6 /* HomeTableViewScrollCell.m in Sources */,
+				183A73711F162B6C0053B92F /* PaymentViewController.m in Sources */,
+				1832C3D61FF0FCC1000C4BBD /* YQPersonalInfoHeaderItem.m in Sources */,
+				181CFDA01FFCCB0900D3DD4F /* YQSellCarInfoViewController.m in Sources */,
+				1823D1701FF6358E00059CA5 /* YQCarSourceReportStateMenuView.m in Sources */,
+				187C4A381FEBB9230089309F /* NSString+YQCategory.m in Sources */,
+				187C4A2D1FEBAB800089309F /* RegisterViewController.m in Sources */,
+				18A9AE681FF22C32002681F6 /* HomeCollectionViewCell.m in Sources */,
+				18AFA3181FE9135000710E99 /* YQNavigationController.m in Sources */,
+				18E368A01FF38FAB004DE661 /* YQQACellItem.m in Sources */,
+				1823D16A1FF61EA500059CA5 /* YQCarBrandViewController.m in Sources */,
+				18F4F4511FFDFE75004C0CD6 /* YQCarPartReportDetailItem.m in Sources */,
+				18AFA3271FEA0D9D00710E99 /* YQPersonalCell.m in Sources */,
+				18498DA31F0CD544009A7C74 /* RepairTableViewCell.m in Sources */,
+				18AFA3341FEA5D4000710E99 /* YQCarSourceViewController.m in Sources */,
+				1832C3D01FF0F4DE000C4BBD /* YQPersonalInfoViewController.m in Sources */,
+				1832C3C71FF08CCC000C4BBD /* YQCarCollectionViewController.m in Sources */,
+				18498D9D1F0CBD0E009A7C74 /* RepairViewController.m in Sources */,
+				18AFA31B1FE9FD5B00710E99 /* YQPersonalCellItem.m in Sources */,
+				187C4A2F1FEBAB800089309F /* YQTextView.m in Sources */,
+				187A72261FF4EB0500CA55C1 /* YQCoverView.m in Sources */,
+				18AFA31E1FE9FF7B00710E99 /* YQGroupItem.m in Sources */,
+				1832C3CD1FF0D8EE000C4BBD /* YQFeedbackViewController.m in Sources */,
+				181CFD911FFCC62100D3DD4F /* YQCGImage.m in Sources */,
+				187C4A2B1FEBAB800089309F /* LoginViewController.m in Sources */,
+				1823D1641FF6094F00059CA5 /* YQCarSourceCell.m in Sources */,
+				18F4F4481FFDC00A004C0CD6 /* YQReportDetailHeaderView.m in Sources */,
+				181CFDA11FFCCB0900D3DD4F /* YQSellCarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE870A1F009901006A40B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE87131F009901006A40B1 /* CarSeriouslyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EE87151F009901006A40B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EE871E1F009901006A40B1 /* CarSeriouslyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EE87101F009901006A40B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EE86F41F009901006A40B1 /* CarSeriously */;
+			targetProxy = 18EE870F1F009901006A40B1 /* PBXContainerItemProxy */;
+		};
+		18EE871B1F009901006A40B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EE86F41F009901006A40B1 /* CarSeriously */;
+			targetProxy = 18EE871A1F009901006A40B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18EE87011F009901006A40B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EE87021F009901006A40B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18EE87061F009901006A40B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EE87071F009901006A40B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EE87201F009901006A40B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EE87211F009901006A40B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EE87231F009901006A40B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D43BCA774EE996379D2DB19 /* Pods-CarSeriously.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JS6J3KA38W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/iOSApp/CarSeriously/CarSeriously/CarSeriouslyPrefixHeader.pch;
+				INFOPLIST_FILE = CarSeriously/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqiao.CarSeriously;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18EE87241F009901006A40B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B6A1B84EE09A94D5DC5730 /* Pods-CarSeriously.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JS6J3KA38W;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/iOSApp/CarSeriously/CarSeriously/CarSeriouslyPrefixHeader.pch;
+				INFOPLIST_FILE = CarSeriously/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqiao.CarSeriously;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18EE87261F009901006A40B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JS6J3KA38W;
+				INFOPLIST_FILE = CarSeriouslyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqiao.CarSeriouslyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarSeriously.app/CarSeriously";
+			};
+			name = Debug;
+		};
+		18EE87271F009901006A40B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JS6J3KA38W;
+				INFOPLIST_FILE = CarSeriouslyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqiao.CarSeriouslyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarSeriously.app/CarSeriously";
+			};
+			name = Release;
+		};
+		18EE87291F009901006A40B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JS6J3KA38W;
+				INFOPLIST_FILE = CarSeriouslyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqiao.CarSeriouslyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarSeriously;
+			};
+			name = Debug;
+		};
+		18EE872A1F009901006A40B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JS6J3KA38W;
+				INFOPLIST_FILE = CarSeriouslyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqiao.CarSeriouslyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarSeriously;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EE86F01F009901006A40B1 /* Build configuration list for PBXProject "CarSeriously" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE87201F009901006A40B1 /* Debug */,
+				18EE87211F009901006A40B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EE87221F009901006A40B1 /* Build configuration list for PBXNativeTarget "CarSeriously" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE87231F009901006A40B1 /* Debug */,
+				18EE87241F009901006A40B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EE87251F009901006A40B1 /* Build configuration list for PBXNativeTarget "CarSeriouslyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE87261F009901006A40B1 /* Debug */,
+				18EE87271F009901006A40B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EE87281F009901006A40B1 /* Build configuration list for PBXNativeTarget "CarSeriouslyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EE87291F009901006A40B1 /* Debug */,
+				18EE872A1F009901006A40B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EE86ED1F009901006A40B1 /* Project object */;
+}

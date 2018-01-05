@@ -1,0 +1,44 @@
+//
+//  CarSeriouslyPrefixHeader.pch
+//  CarSeriously
+//
+//  Created by apple on 17/7/4.
+//  Copyright © 2017年 yuanqiao. All rights reserved.
+//
+
+#ifndef CarSeriouslyPrefixHeader_pch
+#define CarSeriouslyPrefixHeader_pch
+
+#define KCarSeriouslyHttpTest @"http://59.41.39.55:8019"
+
+#import "UIView+frame.h"
+#import "UIView+YQSafe.h"
+#import "UILabel+YQLabel.h"
+#import "NSString+YQCategory.h"
+
+#import "AFNetworking.h"
+#import "YQSessionTool.h"
+
+#import <Availability.h>
+#import <Masonry/Masonry.h>
+
+
+/**屏幕宽*/
+#define SCRW [UIScreen mainScreen].bounds.size.width
+/**屏幕高*/
+#define SCRH [UIScreen mainScreen].bounds.size.height
+
+/**判断字符串是否没有值*/
+#define KStrIsEmpty(string) string == nil || [string isKindOfClass:[NSNull class]] || [string length] < 1
+
+/**根据rbg值设置颜色*/
+#define COLOR_RGB(R,G,B) [UIColor colorWithRed:(R/255.0) green:(G/255.0) blue:(B/255.0) alpha:1]
+
+#define KCarSeriouslyMainColor COLOR_RGB(0,200,63)
+/**自动提示属性值的宏*/
+#define CARKeyPath(objc,keyPath) @(((void)objc.keyPath,#keyPath))
+
+
+#endif /* CarSeriouslyPrefixHeader_pch */
+
+
