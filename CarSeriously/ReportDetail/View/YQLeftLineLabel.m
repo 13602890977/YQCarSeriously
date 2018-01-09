@@ -15,6 +15,7 @@
 // An empty implementation adversely affects performance during animation.
 */
 - (void)drawRect:(CGRect)rect {
+    //非直接继承UIView，继承至UILabel之类的，需要写[super drawRect:rect]
     [super drawRect:rect];
     UIBezierPath *path = [UIBezierPath bezierPath];
     [path moveToPoint:CGPointMake(0, 0)];

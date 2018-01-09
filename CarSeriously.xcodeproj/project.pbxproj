@@ -65,6 +65,9 @@
 		18AFA3241FEA07DE00710E99 /* YQPersonalHeaderCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3231FEA07DE00710E99 /* YQPersonalHeaderCellItem.m */; };
 		18AFA3271FEA0D9D00710E99 /* YQPersonalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3261FEA0D9D00710E99 /* YQPersonalCell.m */; };
 		18AFA3341FEA5D4000710E99 /* YQCarSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA3331FEA5D4000710E99 /* YQCarSourceViewController.m */; };
+		18BCF11A200376FC0023224E /* YQSelectReportTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCF119200376FC0023224E /* YQSelectReportTypeCell.m */; };
+		18BCF11D200459EB0023224E /* YQSelectReportTypeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCF11C200459EB0023224E /* YQSelectReportTypeItem.m */; };
+		18BCF1202004A5AC0023224E /* YQRecordCarNumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCF11F2004A5AC0023224E /* YQRecordCarNumView.m */; };
 		18DD1DD91F0B6BE300B7DA05 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD1DD81F0B6BE300B7DA05 /* MainTabBarController.m */; };
 		18DD1DDC1F0B6C3000B7DA05 /* MainTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD1DDB1F0B6C3000B7DA05 /* MainTabBarItem.m */; };
 		18DD1DE01F0B7C7700B7DA05 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DD1DDF1F0B7C7700B7DA05 /* UIView+frame.m */; };
@@ -79,6 +82,8 @@
 		18E8518E1FFF176500F2908B /* YQReportDetailSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E8518D1FFF176500F2908B /* YQReportDetailSectionHeaderView.m */; };
 		18E851921FFF51F700F2908B /* YQCarReportDetailRepairCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E851901FFF51F700F2908B /* YQCarReportDetailRepairCell.m */; };
 		18E851931FFF51F700F2908B /* YQCarReportDetailRepairCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E851911FFF51F700F2908B /* YQCarReportDetailRepairCell.xib */; };
+		18E851961FFF892500F2908B /* YQSelectReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E851951FFF892500F2908B /* YQSelectReportViewController.m */; };
+		18E851991FFF897300F2908B /* YQSelectReportHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E851981FFF897300F2908B /* YQSelectReportHeaderView.m */; };
 		18EE86FA1F009901006A40B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE86F91F009901006A40B1 /* main.m */; };
 		18EE86FD1F009901006A40B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE86FC1F009901006A40B1 /* AppDelegate.m */; };
 		18EE87031F009901006A40B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EE87011F009901006A40B1 /* Main.storyboard */; };
@@ -224,6 +229,12 @@
 		18AFA3261FEA0D9D00710E99 /* YQPersonalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPersonalCell.m; sourceTree = "<group>"; };
 		18AFA3321FEA5D4000710E99 /* YQCarSourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarSourceViewController.h; sourceTree = "<group>"; };
 		18AFA3331FEA5D4000710E99 /* YQCarSourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarSourceViewController.m; sourceTree = "<group>"; };
+		18BCF118200376FC0023224E /* YQSelectReportTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSelectReportTypeCell.h; sourceTree = "<group>"; };
+		18BCF119200376FC0023224E /* YQSelectReportTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSelectReportTypeCell.m; sourceTree = "<group>"; };
+		18BCF11B200459EB0023224E /* YQSelectReportTypeItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSelectReportTypeItem.h; sourceTree = "<group>"; };
+		18BCF11C200459EB0023224E /* YQSelectReportTypeItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSelectReportTypeItem.m; sourceTree = "<group>"; };
+		18BCF11E2004A5AC0023224E /* YQRecordCarNumView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRecordCarNumView.h; sourceTree = "<group>"; };
+		18BCF11F2004A5AC0023224E /* YQRecordCarNumView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRecordCarNumView.m; sourceTree = "<group>"; };
 		18DD1DD71F0B6BE300B7DA05 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		18DD1DD81F0B6BE300B7DA05 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		18DD1DDA1F0B6C3000B7DA05 /* MainTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarItem.h; sourceTree = "<group>"; };
@@ -253,6 +264,10 @@
 		18E8518F1FFF51F700F2908B /* YQCarReportDetailRepairCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCarReportDetailRepairCell.h; sourceTree = "<group>"; };
 		18E851901FFF51F700F2908B /* YQCarReportDetailRepairCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCarReportDetailRepairCell.m; sourceTree = "<group>"; };
 		18E851911FFF51F700F2908B /* YQCarReportDetailRepairCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQCarReportDetailRepairCell.xib; sourceTree = "<group>"; };
+		18E851941FFF892500F2908B /* YQSelectReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSelectReportViewController.h; sourceTree = "<group>"; };
+		18E851951FFF892500F2908B /* YQSelectReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSelectReportViewController.m; sourceTree = "<group>"; };
+		18E851971FFF897300F2908B /* YQSelectReportHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSelectReportHeaderView.h; sourceTree = "<group>"; };
+		18E851981FFF897300F2908B /* YQSelectReportHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSelectReportHeaderView.m; sourceTree = "<group>"; };
 		18EE86F51F009901006A40B1 /* CarSeriously.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarSeriously.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EE86F91F009901006A40B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18EE86FB1F009901006A40B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -772,6 +787,8 @@
 			children = (
 				18F4F4431FFDBFA9004C0CD6 /* YQReportDetailViewController.h */,
 				18F4F4441FFDBFA9004C0CD6 /* YQReportDetailViewController.m */,
+				18E851941FFF892500F2908B /* YQSelectReportViewController.h */,
+				18E851951FFF892500F2908B /* YQSelectReportViewController.m */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -781,6 +798,8 @@
 			children = (
 				18F4F44F1FFDFE75004C0CD6 /* YQCarPartReportDetailItem.h */,
 				18F4F4501FFDFE75004C0CD6 /* YQCarPartReportDetailItem.m */,
+				18BCF11B200459EB0023224E /* YQSelectReportTypeItem.h */,
+				18BCF11C200459EB0023224E /* YQSelectReportTypeItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -799,6 +818,12 @@
 				18E8518D1FFF176500F2908B /* YQReportDetailSectionHeaderView.m */,
 				18F4F4491FFDDE0C004C0CD6 /* YQLeftLineLabel.h */,
 				18F4F44A1FFDDE0C004C0CD6 /* YQLeftLineLabel.m */,
+				18E851971FFF897300F2908B /* YQSelectReportHeaderView.h */,
+				18E851981FFF897300F2908B /* YQSelectReportHeaderView.m */,
+				18BCF118200376FC0023224E /* YQSelectReportTypeCell.h */,
+				18BCF119200376FC0023224E /* YQSelectReportTypeCell.m */,
+				18BCF11E2004A5AC0023224E /* YQRecordCarNumView.h */,
+				18BCF11F2004A5AC0023224E /* YQRecordCarNumView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1030,6 +1055,7 @@
 				183A736E1F15B9CD0053B92F /* HomeRepairViewController.m in Sources */,
 				18E5FBAA1FECD4A100EED164 /* YQSessionTool.m in Sources */,
 				18DD1DE01F0B7C7700B7DA05 /* UIView+frame.m in Sources */,
+				18BCF11A200376FC0023224E /* YQSelectReportTypeCell.m in Sources */,
 				18AFA3211FEA02F300710E99 /* YQPersonalCellArrowItem.m in Sources */,
 				18E8518E1FFF176500F2908B /* YQReportDetailSectionHeaderView.m in Sources */,
 				187C4A351FEBB2D10089309F /* YQNewPasswordViewController.m in Sources */,
@@ -1053,6 +1079,7 @@
 				18E67CC51F0B29D7001919EA /* HomeViewController.m in Sources */,
 				18AFA3241FEA07DE00710E99 /* YQPersonalHeaderCellItem.m in Sources */,
 				18AFA3151FE8FF8B00710E99 /* YQNewFeatureCell.m in Sources */,
+				18E851961FFF892500F2908B /* YQSelectReportViewController.m in Sources */,
 				18E5FBAD1FECECB300EED164 /* YQRegisterAgreementView.m in Sources */,
 				18E67CC81F0B29E8001919EA /* RecordViewController.m in Sources */,
 				1832C3D91FF1059F000C4BBD /* YQHomeVINView.m in Sources */,
@@ -1062,6 +1089,7 @@
 				181CFDA71FFCCD9A00D3DD4F /* YQSellCarInfoModel.m in Sources */,
 				187C4A2E1FEBAB800089309F /* YQTextField.m in Sources */,
 				18E851921FFF51F700F2908B /* YQCarReportDetailRepairCell.m in Sources */,
+				18E851991FFF897300F2908B /* YQSelectReportHeaderView.m in Sources */,
 				18A9AE671FF22C32002681F6 /* HomeTableViewScrollCell.m in Sources */,
 				183A73711F162B6C0053B92F /* PaymentViewController.m in Sources */,
 				1832C3D61FF0FCC1000C4BBD /* YQPersonalInfoHeaderItem.m in Sources */,
@@ -1082,8 +1110,10 @@
 				18498D9D1F0CBD0E009A7C74 /* RepairViewController.m in Sources */,
 				18AFA31B1FE9FD5B00710E99 /* YQPersonalCellItem.m in Sources */,
 				187C4A2F1FEBAB800089309F /* YQTextView.m in Sources */,
+				18BCF11D200459EB0023224E /* YQSelectReportTypeItem.m in Sources */,
 				187A72261FF4EB0500CA55C1 /* YQCoverView.m in Sources */,
 				18AFA31E1FE9FF7B00710E99 /* YQGroupItem.m in Sources */,
+				18BCF1202004A5AC0023224E /* YQRecordCarNumView.m in Sources */,
 				1832C3CD1FF0D8EE000C4BBD /* YQFeedbackViewController.m in Sources */,
 				181CFD911FFCC62100D3DD4F /* YQCGImage.m in Sources */,
 				187C4A2B1FEBAB800089309F /* LoginViewController.m in Sources */,
@@ -1255,7 +1285,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/apple/Desktop/iOSApp/CarSeriously/CarSeriously/CarSeriouslyPrefixHeader.pch;
 				INFOPLIST_FILE = CarSeriously/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqiao.CarSeriously;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1271,7 +1301,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/apple/Desktop/iOSApp/CarSeriously/CarSeriously/CarSeriouslyPrefixHeader.pch;
 				INFOPLIST_FILE = CarSeriously/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuanqiao.CarSeriously;
 				PRODUCT_NAME = "$(TARGET_NAME)";

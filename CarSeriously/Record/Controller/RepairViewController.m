@@ -13,6 +13,7 @@
 
 #import "YQReportStateMenuView.h"
 #import "YQReportMenuItem.h"
+#import "YQSelectReportViewController.h"
 @interface RepairViewController ()<YQReportStateMenuViewDelegate>
 
 @property(nonatomic,strong)UIView *headerView;
@@ -23,8 +24,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
 }
 - (void)setHeaderView {
     //tableview 的headerView 不需要约束，系统自动适应
@@ -77,6 +76,13 @@
     self.screenBtn.enabled = true;
     self.screenBtn.imageView.transform = CGAffineTransformIdentity;
     [menuView removeFromSuperview];
+}
+#pragma mark - tableview delegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    YQSelectReportViewController *selectVC = [[YQSelectReportViewController alloc] init];
+    selectVC.hidesBottomBarWhenPushed = true;
+    
+    [self.navigationController pushViewController:selectVC animated:true];
 }
 #pragma mark - tableView dataSource
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
